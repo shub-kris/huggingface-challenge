@@ -1,0 +1,5 @@
+.terraform
+.terraform.lock.hcl
+.terraformrc
+__pycache__/
+.DS_Store
