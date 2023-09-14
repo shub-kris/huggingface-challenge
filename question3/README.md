@@ -91,3 +91,5 @@ The code for this approach can be found in the `solution.ipynb` Notebook.
 
 With this approach, we are explicitly providing the model with the relevant information and it does not have to learn to extract the relevant information from the concatenated string. This approach is also more flexible as it allows us to use different feature extractors for numerical and categorical data. For example, we can use one-hot encoding or Word2Vec for categorical data. At the same time we can also use some weighting scheme to give more importance to the text data. For example, we can use a weighted sum of the text, numerical and categorical data. This approach is more flexible and allows us to experiment with different feature extractors and weighting schemes.
 
+Also, one can normalize the numerical features before concatenating it with the text features. This will ensure that the numerical features is on the same scale as the text features.
+
