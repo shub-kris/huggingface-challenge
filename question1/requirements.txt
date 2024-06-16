@@ -1,2 +1,2 @@
-gradio==3.43.2
+gradio==4.36.1
 sagemaker==2.184.0
