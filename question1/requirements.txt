@@ -1,2 +1,2 @@
 gradio==4.36.1
-sagemaker==2.184.0
+sagemaker==2.218.0
